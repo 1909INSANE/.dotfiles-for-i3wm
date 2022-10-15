@@ -353,7 +353,7 @@ mode "$mode_gaps_left" {
 exec_always setxkbmap us 
 
 # Display Wallpaper
-exec_always feh --bg-fill /home/insane/Pictures/Wallpapers/wp1.jpg
+exec_always feh --bg-fill "path to wallpaper"
 
 # Keybinding for i3lock
 bindsym $mod+x exec i3lock
